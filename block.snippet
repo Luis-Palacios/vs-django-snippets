@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>block</Title>
+      <Author>Luis Palacios</Author>
+      <Description>snippet to add a django block</Description>
+      <HelpUrl></HelpUrl>
+      <SnippetTypes />
+      <Keywords />
+      <Shortcut>block</Shortcut>
+    </Header>
+    <Snippet>
+      <References />
+      <Imports />
+      <Declarations>
+        <Literal Editable="true">
+          <ID>blockname</ID>
+          <Type></Type>
+          <ToolTip>name of the block</ToolTip>
+          <Default>blockname</Default>
+          <Function></Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>content</ID>
+          <Type></Type>
+          <ToolTip></ToolTip>
+          <Default></Default>
+          <Function></Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html" Kind="" Delimiter="$"><![CDATA[{% block $blockname$ %}
+	selected$$end$
+{% endblock $blockname$ %}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
