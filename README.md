@@ -8,5 +8,8 @@ A set of django snippets for visual studio
 3. include
 4. for
 
+## How to import to Visual Studio
+[Video](https://youtu.be/6njIg95ewCI)
+
 ## Author
 Luis Palacios
